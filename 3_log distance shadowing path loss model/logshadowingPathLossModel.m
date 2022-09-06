@@ -1,0 +1,23 @@
+close all 
+ptdbm  = 52;
+gtdbi = 25;
+grdbi = 15;
+frequency = 1*10^9;
+d = 41935000*(1:1:500);
+l = 1;
+pt = 10^((ptdbm-30)/10);
+gt = 10^(gtdbi/10);
+gr = 10^(grdbi/10);
+lambda = 3*10^8/frequency;
+pr = pt*(gt*gr*lambda^2)./((4*pi.*d).^2*l);
+x = randn(size(pr));
+proploss=pr./pt;
+pldbm=10*log10(proploss)+10*log10(x);
+prdbm = 10*log10(pr)+30;
+plot(log10(d), 10*log10(proploss),'G','linewidth',2);
+title('log Normal shadowing model');
+xlabel('log10(d)');
+ylabel('p_r/p_t(db)');
+hold on;
+plot(log10(d),pldbm,'r.');
+legend('propatation loss','due to log normal shadowing');
