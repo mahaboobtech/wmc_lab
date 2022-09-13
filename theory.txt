@@ -1,0 +1,11 @@
+	1. Friss transmission equation 
+https://en.wikipedia.org/wiki/Friis_transmission_equation#:~:text=The%20Friis%20transmission%20formula%20is,some%20distance%20away%20transmitting%20a
+	2. Ray leigh fading channel  : https://en.wikipedia.org/wiki/Rayleigh_fading
+	3. Log normal shadowing path loss : https://www.gaussianwaves.com/2013/09/log-distance-path-loss-or-log-normal-shadowing-model/
+	4. Okumura outdoor : https://en.wikipedia.org/wiki/Okumura_model#:~:text=The%20Okumura%20model%20is%20a,was%20built%20into%20three%20modes.
+	5. Probabily received signal level cross sensitivity level : http://vlabs.iitkgp.ac.in/fcmc/exp4/index.html#
+	6. Walsh hadamard : https://en.wikipedia.org/wiki/Hadamard_transform
+	7. Delay spread on frequency selectivity : http://vlabs.iitkgp.ac.in/fcmc/exp10/index.html#
+	8. Working :https://www.gaussianwaves.com/2014/09/capacity-of-a-siso-system-over-a-fading-channel/
+	9. Working on : https://www.site.uottawa.ca/~sloyka/elg4179/Lec_10_ELG4179.pdf
+	10. Direct sequence : https://en.wikipedia.org/wiki/Direct-sequence_spread_spectrum#:~:text=In%20telecommunications%2C%20direct%2Dsequence%20spread,bandwidth%20than%20the%20information%20bandwidth.
