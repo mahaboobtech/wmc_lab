@@ -141,3 +141,8 @@ subplot(4,1,4);
 plot(t,BPSK,'b','linewidth',1);
 grid on;   %Shows grid lines in the graph
 legend('DSSS_BPSK Modulated Signal');    %Shows graph names given
+
+% input 1 : 3
+% input 2 :[3 1]
+% input 3 :[1 0 0]
+% input 4 :[1001010]
