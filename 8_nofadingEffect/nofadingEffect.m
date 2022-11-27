@@ -22,7 +22,7 @@ end
 beranaawgn= 0.5*exp(-snrn/2);
 semilogy(snr,fber/m,'k', 'linewidth',3);
 hold on 
-semilogy(snr,beranaawgn,'k','linewidth',3);
+semilogy(snr,beranaawgn,'ko','linewidth',3);
 hold on 
 grid on 
 xlabel('snr(db)');
