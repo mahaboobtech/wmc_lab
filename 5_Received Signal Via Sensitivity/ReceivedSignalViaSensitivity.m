@@ -17,6 +17,6 @@ x = (pmin-10*log10(pt)-10*log10(k)+10*gam*log10(d/d0))/vari;
 prob_req= qfunc(x);
 % make sure this below line
 disp(vari);
-disp(Pmin);
+disp(pmin);
 disp(x);
-disp(Prob_req);
+disp(prob_req);
